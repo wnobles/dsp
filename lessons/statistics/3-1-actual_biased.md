@@ -13,6 +13,8 @@ The PMF is then plotted.
     thinkplot.Pmf(pmf)
     thinkplot.Config(xlabel='Number of Children', ylabel='PMF')
 
+![Image of actual PMF](https://github.com/wnobles/dsp/blob/master/lessons/statistics/CEF0D171-2722-4920-8752-5E3188F1D62E_4_5005_c.jpeg)
+
 Again, the the functions relevant in the nsfg and first files are useful for solving this problem, in addition to the files, thinkstats2 and thinkplot, which have been imported. Next, the biased PMF is calculated using the BiasPmf function and is plotted with the unbiased PMF to illustrate the various probabilities associated with the number of children in a household.
 
     biased_pmf = BiasPmf(pmf, label='biased')
@@ -20,6 +22,8 @@ Again, the the functions relevant in the nsfg and first files are useful for sol
     thinkplot.PrePlot(2)
     thinkplot.Pmfs([pmf, biased_pmf])
     thinkplot.Config(xlabel='Number of Children', ylabel='PMF')
+
+![Image of actual/biased PMF](https://github.com/wnobles/dsp/blob/master/lessons/statistics/CFBC9A01-9B7B-42EA-BDC5-EB60F9437A5E_4_5005_c.jpeg)
 
 Finally, the average number of children per household is calculated for the both the unbiased and biased distributions.
 
