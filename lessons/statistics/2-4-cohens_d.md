@@ -6,7 +6,12 @@ The variable `totalwgt_lb` is used to investigate whether first babies are light
 ### Solution
 The author provides two files, nsfg and first, which are imported and provide methods for solving the problem. The variable, `totalwgt_lb` can be found in the nsfg.py file and is a transformation of two other values regarding birth weight. Also, a function in first.py that the author has provided reads in pregnancy data, partitions the data into firstborn babies and others, and returns a dataframe, so the variable `totalwgt_lb` is used along with methods in the Pandas library to determine which group of babies is lighter or heavier on average.
 
-    firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+
+```python
+{
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+}
+```
 
 The difference in birth weight (in pounds) is then calculated by subtracting the two values.
 
