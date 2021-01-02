@@ -89,23 +89,23 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Solution
 Bayes' theorem is based on conditional probability, or the probability of some event *A* happening given that event *B* occurs. The equation for Bayes' theorem is
 
-  *P(A|B) = P(A) * P(B|A) / P(B)*,
+*P(A|B) = P(A) * P(B|A) / P(B)*,
 
 where *P(A)* is the probability is the probability that Elvis was an identical twin and *P(B)* is the probability that Elvis' brother was a twin. First, we calculate the probability that Elvis was an identical twin by taking into account the probablity of being an identical twin in the population is 300. Additionally, the probability of being male or female is 50%, so the value for *P(A)* is
 
-  *P(A) = 1/300 * 1/2 = 1/600*.
+*P(A) = 1/300 * 1/2 = 1/600*.
   
 Next, we take into account the probability that Elvis' brother was a twin, *P(B)*. For this, we must consider two possibilities: that the boys were fraternal twins or identical twins. The probability associated with being an identical twin was calculated above, and the probability associated with being a fraternal twin is
 
-  *1/125 * 1/4*
+*1/125 * 1/4*
   
 since 1/125 is the probability of being a fraternal twin in the population and 1/4 is the probability that the twins are both males. The probability, *P(B)*, then is just the two values added together since they're alternatives (i.e. they're mutually exclusive).
 
-  *P(B) = 1/125 * 1/4 + 1/300 * 1/2 = 11/3000*
+*P(B) = 1/125 * 1/4 + 1/300 * 1/2 = 11/3000*
   
 Lastly, we calculate *P(B|A)* which is the probability that Elvis' brother was a twin in the event that they're identical twins. The probability here is 1 since Elvis' is a male and by definition his identical twin would have to be male. Substituting the values yields the solution:
 
-  *P(A|B) = (1/600 * 1) / (11/3000) = 5/11
+*P(A|B) = (1/600 * 1) / (11/3000) = 5/11
   
 The probability that Elvis was an identical twin is about 45%.
 
