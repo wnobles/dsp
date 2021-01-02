@@ -8,7 +8,7 @@ The numpy library is already imported in the file, so the first step is to gener
 
     t = np.random.random(1000)
 
-The PMF can be plotted using the Pmf function that the author provides in the thinkplot.py file.
+The PMF can be plotted using the `Pmf` function that the author provides in the thinkplot.py file.
 
     pmf = thinkstats2.Pmf(t)
     thinkplot.Pmf(pmf)
@@ -16,7 +16,7 @@ The PMF can be plotted using the Pmf function that the author provides in the th
 
 ![Image of PMF](https://github.com/wnobles/dsp/blob/master/lessons/statistics/B8800E40-F08B-4C12-8BA7-290B1E0A006C_4_5005_c.jpeg)
 
-A problem occurs when viewing the graph because unlike the graph showing the probabilities associated with birthweights, which ranged from 0 to 16 lbs, this graph plots 1000 numbers between 0 and 1, all with equal probabilities. The lines are very hard to view in the PMF graph and don't illustrate well the equal probability associated with each random value. The CDF is also plotted using the Cdf function that the author provides.
+A problem occurs when viewing the graph because unlike the graph showing the probabilities associated with birthweights, which ranged from 0 to 16 lbs, this graph plots 1000 numbers between 0 and 1, all with equal probabilities. The lines are very hard to view in the PMF graph and don't illustrate well the equal probability associated with each random value. The CDF is also plotted using the `Cdf` function that the author provides.
 
     cdf = thinkstats2.Cdf(t)
     thinkplot.Cdf(cdf)
