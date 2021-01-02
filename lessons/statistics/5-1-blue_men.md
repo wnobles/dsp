@@ -18,3 +18,5 @@ This returns a "frozen" random variable object, which can be used to calculate t
     high = dist.cdf(185.4)
     percent_between = round((high - low) * 100, 2)
     print("Percent between 5'10\" and 6'1\": ", percent_between)
+
+The percentage of males in the U.S. between 5'10" and 6'1" is 34.2%.
