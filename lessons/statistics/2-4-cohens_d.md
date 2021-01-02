@@ -9,7 +9,7 @@ The author provides two files, nsfg and first, which are imported and provide me
 
 ```python
 {
-firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+    firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
 }
 ```
 
