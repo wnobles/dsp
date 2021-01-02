@@ -8,19 +8,19 @@ The author provides two files, nsfg and first, which are imported and provide me
 
 
 ```python
-    firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
 ```
 
 The difference in birth weight (in pounds) is then calculated by subtracting the two values.
 
 ```python
-    firsts.totalwgt_lb.mean() - others.totalwgt_lb.mean()
+firsts.totalwgt_lb.mean() - others.totalwgt_lb.mean()
 ```
 
 The negative result indicates that firstborn babies are slightly lighter than others. Cohen's *d* takes into account the standard deviation, and the author provides a function in the Jupyter Notebook to calculate the effect size. Both values for average birth weight are passed into the function, and the standard deviation is returned.
 
 ```python
-    CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 
 The negative result means that the "others" group is slightly heavier at birth than the "firsts" group. This can also be related to the difference in pregnancy length by observing that a longer pregnancy seems to correlate with a slightly lower birth weight. However, the Cohen Effect Size is very small in both cases and is usually considered not statistically significant.
