@@ -105,7 +105,7 @@ since 1/125 is the probability of being a fraternal twin in the population and 1
   
 Lastly, we calculate *P(B|A)* which is the probability that Elvis' brother was a twin in the event that they're identical twins. The probability here is 1 since Elvis' is a male and by definition his identical twin would have to be male. Substituting the values yields the solution:
 
-*P(A|B) = (1/600 * 1) / (11/3000) = 5/11
+*P(A|B) = (1/600 * 1) / (11/3000) = 5/11*
   
 The probability that Elvis was an identical twin is about 45%.
 
