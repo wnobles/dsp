@@ -91,7 +91,7 @@ Bayes' theorem is based on conditional probability, or the probability of some e
 
 *P(A|B) = P(A) * P(B|A) / P(B)*,
 
-where *P(A)* is the probability is the probability that Elvis was an identical twin and *P(B)* is the probability that Elvis' brother was a twin. First, we calculate the probability that Elvis was an identical twin by taking into account the probablity of being an identical twin in the population is 300. Additionally, the probability of being male or female is 50%, so the value for *P(A)* is
+where *P(A)* is the probability that Elvis had an identical twin and *P(B)* is the probability that Elvis had a twin brother. First, we calculate the probability that Elvis was an identical twin by taking into account the probablity of being an identical twin in the population is 300. Additionally, the probability of being male or female is 50%, so the value for *P(A)* is
 
 *P(A) = 1/300 * 1/2 = 1/600*.
   
